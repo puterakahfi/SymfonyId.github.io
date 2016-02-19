@@ -22,7 +22,8 @@ $(document).ready(function (e) {
 
     $("#defaultCountdown").countdown({
         //Time set = Year, Month,Date; Starts from 0-jan month
-        until: new Date(2015, 05, 17)
+        until: new Date('2015/3/12'),
+        format: 'dHM'
     });
 
     /* Accordian Section ----------------------------------------------*/
